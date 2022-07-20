@@ -1,0 +1,52 @@
+
+.result-song .ant-list-split .ant-list-item {
+    border: none;
+    padding: 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.list.song-data.search {
+    margin-bottom: 0;
+    background-color: unset;
+    display: flex;
+    align-items: center;
+}
+
+.list.song-data.search:hover {
+    background-color: var(--opacity-bg-07);
+}
+
+.list.song-data.search .song-duration {
+    color: var(--opacity-bg-08);
+    font-size: 12px;
+}
+
+.list.song-data.search .song {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+
+.list.song-data.search .song .song-left {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.list.song-data.search .opacity {
+    width: 100%;
+    height: 100%;
+}
+
+.list.song-data.search .song-left .action-btn-play {
+    border: none;
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+}
+
+.list.song-data.search:hover .song-left .action-btn-play {
+    opacity: 1 !important;
+}

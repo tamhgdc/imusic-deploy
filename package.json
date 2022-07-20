@@ -1,0 +1,28 @@
+{
+  "name": "music-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "axios-cookiejar-support": "^1.0.1",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.25.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "tough-cookie": "^4.0.0",
+    "validator": "^13.5.2"
+  }
+}
